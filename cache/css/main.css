@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+}
+h3 {
+    font-family: arial;
+    color:	#FF0099;
+}
+p {
+    font-family: arial;
+    font-size: 16px;
+    color:black;
+}
+h1 {
+    font-family: arial;
+    font-size: 32px;
+    color:saddlebrown;
+    text-decoration: underline;
+}
+
+a:link {	
+    font-family: arial;
+    font-size: 26px;
+    color:#000000;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: arial;
+    font-size: 26px;
+    color:darkgrey;
+    text-decoration: none;
+}
+
+.navbar {
+    background: #d1d1d1;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    padding-right: 717px;
+    padding-bottom: 10px;
+}
+
+.linkbar {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.linkico {
+    top: 10px;
+    padding-left: 20px;
+}
+
+.float {
+    float: left;
+    padding: 17px;
+}
+.width {
+    width: 1000px
+}
+.center {
+    max-width: 1000px;
+    margin: auto;
+}
+.tabs {
+    padding-top: 75px;
+    padding-bottom: 65px;
+    padding-left: 40px;
+}
+.tab {
+    float: left;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 0px;
+}
+.selectedtab {
+    float: left;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 17px;
+    border: 1px #d1d1d1;
+    background-color: #d1d1d1;
+}
+.tabcontent {
+    background-color: #d1d1d1;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.scroll {
+    background-color: #d1d1d1;
+    overflow: auto;
+    white-space: nowrap;
+}
+.centeredh1 {
+    font-family: arial;
+    font-size: 32px;
+    color:saddlebrown;
+    text-decoration: underline;
+    text-align: center;
+}
+.mtttitle {
+    text-align: center;
+    font-family: arial;
+    font-size: 75px;
+}
+.mttdesc {
+    float: right;
+    padding-top: 100px;
+}
+.centeredtabcontent {
+    background-color: #d1d1d1;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
