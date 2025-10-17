@@ -33,11 +33,9 @@ a:hover {
 
 .navbar {
     background: #d1d1d1;
-    position: fixed;
-    top: 0px;
-    text-align: center;
-    padding-right: 717px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    display: block;
 }
 
 .linkbar {
