@@ -1,5 +1,9 @@
+html {
+    scrollbar-gutter: stable both-edges;
+}
 body {
     background-color: white;
+
 }
 h3 {
     font-family: arial;
@@ -31,8 +35,24 @@ a:hover {
     text-decoration: none;
 }
 
+a { 
+    color:black;
+    font-family: arial;
+    font-size: 26px;
+    text-decoration: none;
+} /* Globally */
+
+/* Each state */
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:darkgrey; }
+a:active { text-decoration: none; color:black }
+
+
+
 .navbar {
     background: #d1d1d1;
+    position: sticky;
+    top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: block;
@@ -46,6 +66,7 @@ a:hover {
 .linkico {
     top: 10px;
     padding-left: 20px;
+    float: inline-start;
 }
 
 .float {
