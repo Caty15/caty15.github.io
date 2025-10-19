@@ -2,11 +2,92 @@
     "uot2": {
         "name": "Update on Tucker 2",
         "desc": "The long-awaited sequel to the most critically acclaimed Tucker Production",
-        "file": "/content/UpdateOnTucker/updateontucker2.mp4"
+        "file": "/UpdateOnTucker/updateontucker2.mp4",
+        "album": "Tucker",
+        "thumbnail": "uot2.png",
+        "type": "video"
+        
+    },
+    "uot": {
+        "name": "Update on Tucker",
+        "desc": "A Classic. The debut title of Tucker Productions",
+        "file": "/UpdateOnTucker/updateontucker.mp4",
+        "album": "Tucker",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "mmdt": {
+        "name": "Meet My Dog Tucker",
+        "desc": "The prequel to update on tucker",
+        "file": "/UpdateOnTucker/meetmydogtucker.mp4",
+        "album": "Tucker",
+        "thumbnail": "uot2.png",
+        "type": "video"
+        
+    },
+    "uoa": {
+        "name": "Update on Angel",
+        "desc": "A spinoff to update on tucker but it's a cat",
+        "file": "/UpdateOnTucker/updateonangel.mp4",
+        "album": "Tucker",
+        "thumbnail": "uot2.png",
+        "type": "video"
+        
     },
     "feudalism": {
         "name": "Feudalism Sketch",
         "desc": "The Farm needs more land to plant the rest of the extra seeds, but the request has to make it through the whole system",
-        "file": "/content/misc/feudalism.mp4"
+        "file": "/misc/feudalism.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "friday13th": {
+        "name": "Friday 13th",
+        "desc": "At camp, suspicions arise when people start to turn up dead",
+        "file": "/misc/friday13th.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "jacobapple": {
+        "name": "I drank the JACOB APPLE potion at 3AM!!",
+        "desc": "",
+        "file": "/misc/iturnedtoanapple.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "riseofkindoms": {
+        "name": "Rise of Kingdoms",
+        "desc": "Parker wants to play on the PS5, but his brother wont let him because he only has 5 million power in Rise of Kingdoms (INSTANTLY REGRETS IT)",
+        "file": "/misc/rsieofkingdoms.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "scienceproject": {
+        "name": "Physics Video",
+        "desc": "School Project on the laws of physics",
+        "file": "/misc/sciencevid.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "cokes": {
+        "name": "Coke Tier List",
+        "desc": "We bought and ranked every coke flavour on a tierlist!",
+        "file": "/misc/feudalism.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
+    },
+    "warplanesevolution": {
+        "name": "The Evolution of Warplanes",
+        "desc": "Part one of a 2 part series and it goes from the first plane all the way to the jet age.",
+        "file": "/misc/feudalism.mp4",
+        "album": "",
+        "thumbnail": "uot2.png",
+        "type": "video"
     }
 }
