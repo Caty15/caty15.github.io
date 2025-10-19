@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title id="pagetitle">- Galactic+</title>
+    <link rel="icon" type="image/x-icon" href="staticimg/logoico.ico">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        const urlParams = new URL(window.location.toLocaleString()).searchParams;
+        const v = urlParams.get('v');
+        const reqURL = `https://raw.githubusercontent.com/Caty15/caty15.github.io/refs/heads/main/cache/content/index.json`;
+        var contentIndex;
+        contentname = "Error 404"
+        contentdesc = "Could not find anything with that name"
+        contentfile = "404"
+
+        vidsrcfooter = './content'
+
+        fetch(reqURL) 
+            .then(response => response.json())
+            .then(result => {
+                contentIndex = result;
+                console.log(contentIndex);
+
+                contentname = contentIndex[v].name;
+                contentdesc = contentIndex[v].desc;
+                contentfile = contentIndex[v].file;
+
+                document.getElementById("pagetitle").innerHTML = `${contentname} - Galactic+`;
+                document.getElementById("vidtitle").innerHTML = `${contentname}`;
+                document.getElementById("viddesc").innerHTML = `${contentdesc}`;
+                document.getElementById("vidsrc").src = `${vidsrcfooter}${contentfile}`;
+            })
+    </script>
+</head>
+<body class="center">
+    <div class="navbar">
+        <a href="https://caty15.github.io/cache/new.html" class="linkico"><img src="staticimg/logopng.png" alt="Home" width="30"></a>
+        <a href="https://caty15.github.io/cache/MeetTheTeam.html" class="linkbar">Credits</a>
+        <a href="https://caty15.github.io/cache/licenses.html" class="linkbar">Licences</a>
+    </div>
+    
+    <div class="tabs">
+	    <a href="https://caty15.github.io/cache/new.html" class="tab">New</a>
+	    <a href="https://caty15.github.io/cache/albums.html" class="tab">Albums</a>
+	    <a href="https://caty15.github.io/cache/search.html" class="tab">Search</a>
+	</div>
+
+    <div class="centeredtabcontent">
+        <h1 id="vidtitle"></h1>
+        <p id="viddesc"></p>
+        <video id="vidsrc" src="content/misc/404.mp4" width="640" height="360" controls></video>
+	</div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
