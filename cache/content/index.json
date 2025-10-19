@@ -2,16 +2,15 @@
     "uot2": {
         "name": "Update on Tucker 2",
         "desc": "The long-awaited sequel to the most critically acclaimed Tucker Production",
-        "file": "/UpdateOnTucker/updateontucker2.mp4",
+        "file": "/updateontucker/updateontucker2.mp4",
         "album": "Tucker",
         "thumbnail": "uot2.png",
         "type": "video"
-        
     },
     "uot": {
         "name": "Update on Tucker",
         "desc": "A Classic. The debut title of Tucker Productions",
-        "file": "/UpdateOnTucker/updateontucker.mp4",
+        "file": "/updateontucker/updateontucker.mp4",
         "album": "Tucker",
         "thumbnail": "uot2.png",
         "type": "video"
@@ -19,7 +18,7 @@
     "mmdt": {
         "name": "Meet My Dog Tucker",
         "desc": "The prequel to update on tucker",
-        "file": "/UpdateOnTucker/meetmydogtucker.mp4",
+        "file": "/updateontucker/meetmydogtucker.mp4",
         "album": "Tucker",
         "thumbnail": "uot2.png",
         "type": "video"
@@ -28,7 +27,7 @@
     "uoa": {
         "name": "Update on Angel",
         "desc": "A spinoff to update on tucker but it's a cat",
-        "file": "/UpdateOnTucker/updateonangel.mp4",
+        "file": "/updateontucker/updateonangel.mp4",
         "album": "Tucker",
         "thumbnail": "uot2.png",
         "type": "video"
