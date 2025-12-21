@@ -1,4 +1,49 @@
 {
+    "jraydon": {
+        "name": "Jraydon: Season 1",
+        "desc": "Rom-Com starring Jacob and Braydon",
+        "file": "",
+        "album": "Jraydon",
+        "thumbnail": "uot2.png",
+        "type": "show",
+        "episode": {
+            "1": {
+                "name": "Doing it",
+                "desc": "This episode starts off the show. not needing much of a plot, this episode will tell you what this is show is all about",
+                "file": "/jraydon/zep1aud.mp4"
+            },
+            "2": {
+                "name": "No Gay Thursday",
+                "desc": "Jacob badly wants to 'get all creamy', but according to Braydon it is 'no gay thursday'",
+                "file": "/jraydon/zep2aud.mp4"
+            },
+            "3": {
+                "name": "Shorts",
+                "desc": "this episode is short and is all about shorts. considered as the lowest EP in the season",
+                "file": "/jraydon/zep3aud.mp4"
+            },
+            "4": {
+                "name": "Taco Bell",
+                "desc": "Both Jacob and Braydon fall victim to the Blood God that is Taco Bell",
+                "file": "/jraydon/zep4aud.mp4"
+            },
+            "5": {
+                "name": "Origin Story",
+                "desc": "the orgigin story of the Jraydon relationship",
+                "file": "/jraydon/zep5aud.mp4"
+            },
+            "6": {
+                "name": "Special Guest",
+                "desc": "Braydon does it with a Special Guest: Mathew, who will inevitably become Jacobs nemisis",
+                "file": "/jraydon/zep6aud.mp4"
+            },
+            "7": {
+                "name": "Finale",
+                "desc": "Its the end of school and jacob and braydon will have to separate. beutifully signaling the end of the first season",
+                "file": "/jraydon/zep7aud.mp4"
+            }
+        }
+    },
     "uot2": {
         "name": "Update on Tucker 2",
         "desc": "The long-awaited sequel to the most critically acclaimed Tucker Production",
@@ -90,3 +135,4 @@
         "type": "video"
     }
 }
+
