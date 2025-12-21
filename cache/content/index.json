@@ -6,7 +6,7 @@
         "album": "Jraydon",
         "thumbnail": "uot2.png",
         "type": "show",
-        "episode": {
+        "episode": [
             "1": {
                 "name": "Doing it",
                 "desc": "This episode starts off the show. not needing much of a plot, this episode will tell you what this is show is all about",
@@ -42,7 +42,7 @@
                 "desc": "Its the end of school and jacob and braydon will have to separate. beutifully signaling the end of the first season",
                 "file": "/jraydon/zep7aud.mp4"
             }
-        }
+        ]
     },
     "uot2": {
         "name": "Update on Tucker 2",
@@ -135,4 +135,5 @@
         "type": "video"
     }
 }
+
 
