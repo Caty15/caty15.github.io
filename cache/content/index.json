@@ -1,4 +1,32 @@
 {
+    "kongchristmas": {
+        "name": "A Very Kongy Christmas",
+        "desc": "The second studio album of Yungpotroast, christmas themed",
+        "file": "",
+        "album": "",
+        "thumbnail": "4092172972908138312001.png",
+        "type": "music",
+        "track": [
+            {
+                "number": 1,
+                "name": "Christmas time",
+                "desc": "",
+                "file": "/benchristmas/christmasalbum.mp3"
+            },
+            {
+                "number": 2,
+                "name": "Yung Claus",
+                "desc": "",
+                "file": "/benchristmas/VERT_lv_0_20251209202323.mp3"
+            },
+            {
+                "number": 3,
+                "name": "Kongs Class",
+                "desc": "",
+                "file": "/benchristmas/VERT_lv_0_20251209202344.mp3"
+            }
+        ]
+    },
     "jraydon": {
         "name": "Jraydon: Season 1",
         "desc": "Rom-Com starring Jacob and Braydon",
@@ -142,6 +170,7 @@
         "type": "video"
     }
 }
+
 
 
 
