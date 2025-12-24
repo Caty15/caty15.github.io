@@ -79,6 +79,34 @@
             }
         ]
     },
+    "beatsepcaty1": {
+        "name": "BEATS EP",
+        "desc": "Debut beats mixtape of Caty1",
+        "file": "",
+        "album": "",
+        "thumbnail": "beatsep.png",
+        "type": "music",
+        "track": [
+            {
+                "number": 1,
+                "name": "BEAT 1.",
+                "desc": "",
+                "file": "/BEATS EP/BEAT 1.m4a"
+            },
+            {
+                "number": 2,
+                "name": "BEAT 2.",
+                "desc": "",
+                "file": "/BEATS EP/BEAT 2.m4a"
+            },
+            {
+                "number": 3,
+                "name": "BEAT 3.",
+                "desc": "",
+                "file": "/BEATS EP/BEAT 3.m4a"
+            }
+        ]
+    },
     "uot2": {
         "name": "Update on Tucker 2",
         "desc": "The long-awaited sequel to the most critically acclaimed Tucker Production",
@@ -170,6 +198,7 @@
         "type": "video"
     }
 }
+
 
 
 
