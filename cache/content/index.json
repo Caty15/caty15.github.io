@@ -115,12 +115,40 @@
             }
         ]
     },
+    "beatsepcaty1": {
+        "name": "BEATS EP",
+        "desc": "Debut beats mixtape of Caty1",
+        "file": "",
+        "album": "",
+        "thumbnail": "beatsep.png",
+        "type": "music",
+        "track": [
+            {
+                "number": 1,
+                "name": "BEAT 1.",
+                "desc": "",
+                "file": "/BEATS EP/BEAT 1.m4a"
+            },
+            {
+                "number": 2,
+                "name": "BEAT 2.",
+                "desc": "",
+                "file": "/BEATS EP/BEAT 2.m4a"
+            },
+            {
+                "number": 3,
+                "name": "BEAT 3.",
+                "desc": "",
+                "file": "/BEATS EP/BEAT 3.m4a"
+            }
+        ]
+    },
     "jraydon": {
         "name": "Jraydon: Season 1",
         "desc": "Rom-Com starring Jacob and Braydon",
         "file": "",
         "album": "Jraydon",
-        "thumbnail": "uot2.png",
+        "thumbnail": "jraydon1.png",
         "type": "show",
         "episode": [
             {
@@ -167,31 +195,77 @@
             }
         ]
     },
-    "beatsepcaty1": {
-        "name": "BEATS EP",
-        "desc": "Debut beats mixtape of Caty1",
+    "jraydons2": {
+        "name": "Jraydon: Season 2",
+        "desc": "Rom-Com starring Jacob and Braydon",
         "file": "",
-        "album": "",
-        "thumbnail": "beatsep.png",
-        "type": "music",
-        "track": [
+        "album": "Jraydon",
+        "thumbnail": "jraydon2.png",
+        "type": "show",
+        "episode": [
             {
                 "number": 1,
-                "name": "BEAT 1.",
-                "desc": "",
-                "file": "/BEATS EP/BEAT 1.m4a"
+                "name": "Relationship Drama",
+                "desc": "Jacob starts cheating on braydon with another girl, because he wants to get back at braydon for hitting it off with mathew",
+                "file": "/jraydon/season2/ep1.mp4"
             },
             {
                 "number": 2,
-                "name": "BEAT 2.",
-                "desc": "",
-                "file": "/BEATS EP/BEAT 2.m4a"
+                "name": "Not just an Ad",
+                "desc": "Jacob discovers braydon is on an ad with mathew for mathews dating site business 'mygay.com'",
+                "file": "/jraydon/season2/ep2.mp4"
             },
             {
                 "number": 3,
-                "name": "BEAT 3.",
-                "desc": "",
-                "file": "/BEATS EP/BEAT 3.m4a"
+                "name": "Back to Peace",
+                "desc": "Braydon starts going out with Piet, while jacob starts going out with the other girl. they both go on a date at the same time, catching each other cheating",
+                "file": "/jraydon/season2/ep3.mp4"
+            },
+            {
+                "number": 4,
+                "name": "Horrendous Hair",
+                "desc": "while braydon is in the bathroom, jacob and mathew have a fight and realise they both wear the same wig",
+                "file": "/jraydon/season2/ep4.mp4"
+            },
+            {
+                "number": 5,
+                "name": "Top G Saves the Relationship",
+                "desc": "'Top G' eliminates mathew, and in turn, save Jacob and Braydons relationship",
+                "file": "/jraydon/season2/ep5.mp4"
+            }
+        ]
+    },
+    "jraydons3": {
+        "name": "Jraydon: Season 3",
+        "desc": "Rom-Com starring Jacob and Braydon",
+        "file": "",
+        "album": "Jraydon",
+        "thumbnail": "jraydon3.png",
+        "type": "show",
+        "episode": [
+            {
+                "number": 1,
+                "name": "Episode 1: Toes, Meat and Piet",
+                "desc": "Jacob keeps giving Braydon the wrong meat. Piet and Jeffs relationship isnt going very well.",
+                "file": "/jraydon/season3/ep1.mp4"
+            },
+            {
+                "number": 2,
+                "name": "Episode 2: Crusty",
+                "desc": "Jacobs voice changes, Jacob meets Jeff at the grocery store.",
+                "file": "/jraydon/season3/ep2.mp4"
+            },
+            {
+                "number": 3,
+                "name": "Episode 3: Braydons Confession",
+                "desc": "Braydon confesses to kelvin, but things dont work out",
+                "file": "/jraydon/season3/ep3.mp4"
+            },
+            {
+                "number": 4,
+                "name": "Episode 4: The Finale (Fan Made)",
+                "desc": "Braydon is arrested for molesting kelvin. Jacob and braydon have to savour their last hours together.",
+                "file": "/jraydon/season3/ep4.mp4"
             }
         ]
     },
@@ -202,6 +276,7 @@
         "album": "Tucker",
         "thumbnail": "uot2.png",
         "type": "video"
+        
     },
     "uot": {
         "name": "Update on Tucker",
@@ -234,7 +309,7 @@
         "desc": "The Farm needs more land to plant the rest of the extra seeds, but the request has to make it through the whole system",
         "file": "/misc/feudalism.mp4",
         "album": "",
-        "thumbnail": "uot2.png",
+        "thumbnail": "feudalism.png",
         "type": "video"
     },
     "friday13th": {
@@ -242,7 +317,7 @@
         "desc": "At camp, suspicions arise when people start to turn up dead",
         "file": "/misc/friday13th.mp4",
         "album": "",
-        "thumbnail": "uot2.png",
+        "thumbnail": "friday13th.png",
         "type": "video"
     },
     "jacobapple": {
@@ -250,7 +325,7 @@
         "desc": "",
         "file": "/misc/iturnedtoanapple.mp4",
         "album": "",
-        "thumbnail": "uot2.png",
+        "thumbnail": "jacobapple.jpg",
         "type": "video"
     },
     "riseofkindoms": {
@@ -258,7 +333,7 @@
         "desc": "Parker wants to play on the PS5, but his brother wont let him because he only has 5 million power in Rise of Kingdoms (INSTANTLY REGRETS IT)",
         "file": "/misc/rsieofkingdoms.mp4",
         "album": "",
-        "thumbnail": "uot2.png",
+        "thumbnail": "riseofkingdoms.png",
         "type": "video"
     },
     "scienceproject": {
@@ -274,7 +349,7 @@
         "desc": "We bought and ranked every coke flavour on a tierlist!",
         "file": "/misc/feudalism.mp4",
         "album": "",
-        "thumbnail": "uot2.png",
+        "thumbnail": "coke.png",
         "type": "video"
     },
     "warplanesevolution": {
@@ -286,10 +361,3 @@
         "type": "video"
     }
 }
-
-
-
-
-
-
-
