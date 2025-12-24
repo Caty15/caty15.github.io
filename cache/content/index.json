@@ -200,7 +200,7 @@
         "desc": "Rom-Com starring Jacob and Braydon",
         "file": "",
         "album": "Jraydon",
-        "thumbnail": "jraydon2.png",
+        "thumbnail": "jraydon2.jpg",
         "type": "show",
         "episode": [
             {
@@ -240,7 +240,7 @@
         "desc": "Rom-Com starring Jacob and Braydon",
         "file": "",
         "album": "Jraydon",
-        "thumbnail": "jraydon3.png",
+        "thumbnail": "jraydon3.jpg",
         "type": "show",
         "episode": [
             {
@@ -361,3 +361,4 @@
         "type": "video"
     }
 }
+
