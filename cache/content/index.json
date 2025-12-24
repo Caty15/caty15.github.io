@@ -27,6 +27,94 @@
             }
         ]
     },
+    "milwaukee": {
+        "name": "MILWAUKEE",
+        "desc": "Debut album of Caty1",
+        "file": "",
+        "album": "",
+        "thumbnail": "milw.png",
+        "type": "music",
+        "track": [
+            {
+                "number": 1,
+                "name": "Intro",
+                "desc": "",
+                "file": "/MILWAUKEE/intro.m4a"
+            },
+            {
+                "number": 2,
+                "name": "Wake Up",
+                "desc": "",
+                "file": "/MILWAUKEE/good credit type beat.m4a"
+            },
+            {
+                "number": 3,
+                "name": "Nett",
+                "desc": "",
+                "file": "/MILWAUKEE/trap beat 1.m4a"
+            },
+            {
+                "number": 4,
+                "name": "Through Hardships",
+                "desc": "",
+                "file": "/MILWAUKEE/house beat 1.m4a"
+            },
+            {
+                "number": 5,
+                "name": "Bagpipes",
+                "desc": "",
+                "file": "/MILWAUKEE/bagpipe beat.m4a"
+            },
+            {
+                "number": 6,
+                "name": "Jeans",
+                "desc": "",
+                "file": "/MILWAUKEE/jean.m4a"
+            },
+            {
+                "number": 7,
+                "name": "Heaven",
+                "desc": "",
+                "file": "/MILWAUKEE/boom bap beat 1.m4a"
+            },
+            {
+                "number": 8,
+                "name": "Interlude",
+                "desc": "",
+                "file": "/MILWAUKEE/interlude.m4a"
+            },
+            {
+                "number": 9,
+                "name": "Fake",
+                "desc": "",
+                "file": "/MILWAUKEE/fake.mp3"
+            },
+            {
+                "number": 10,
+                "name": "Get Lit",
+                "desc": "",
+                "file": "/MILWAUKEE/underground beat 1.m4a"
+            },
+            {
+                "number": 11,
+                "name": "Fake Pt. II (Bonus)",
+                "desc": "",
+                "file": "/MILWAUKEE/evil jordan 2.mp3"
+            },
+            {
+                "number": 12,
+                "name": "OnAir (Bonus)",
+                "desc": "",
+                "file": "/MILWAUKEE/hba type beat master 2.mp3"
+            },
+            {
+                "number": 13,
+                "name": "Psychopathic (Bonus)",
+                "desc": "",
+                "file": "/MILWAUKEE/phonk beat 1.mp3"
+            }
+        ]
+    },
     "jraydon": {
         "name": "Jraydon: Season 1",
         "desc": "Rom-Com starring Jacob and Braydon",
@@ -198,6 +286,7 @@
         "type": "video"
     }
 }
+
 
 
 
