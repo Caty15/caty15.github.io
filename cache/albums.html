@@ -5,24 +5,52 @@
 	<title>Galactic+ | Albums</title>
 	<link rel="icon" type="image/x-icon" href="staticimg/logoico.ico">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<script src="jscript/main.js"></script>
+	<script>
+		const reqURL = `${getServerAddress()}/index.json`;
+		var contentIndex; 
+		vidsrcfooter = './content'
+		//vidsrcfooter = getServerAddress()
+		fetch(reqURL) 
+			.then(response => response.json())
+			.then(result => {
+				contentIndex = result;
+				console.log(contentIndex);
+				const container = document.getElementById("contentList");
+				const albumsPrinted = [""];
+				Object.entries(contentIndex).forEach(([id, ep]) => {
+					if (!albumsPrinted.includes(ep.album)) {
+						const albumtitle = document.createElement("h3");
+						albumtitle.innerHTML = `${ep.album}`
+						container.appendChild(albumtitle);
+						albumsPrinted.push(ep.album)
+
+						const album = document.createElement("div");
+						album.className = "scroll";
+						album.id = ep.album;
+						container.appendChild(album);
+						fillBrowser(ep.album, ep.album);
+					}
+				});
+			});
+	</script>
 </head>
 <body class="center">
-    <div class="navbar">
-        <a href="https://caty15.github.io/cache/new.html" class="linkico"><img src="staticimg/logopng.png" alt="Home" width="30"></a>
-        <a href="https://caty15.github.io/cache/MeetTheTeam.html" class="linkbar">Credits</a>
-        <a href="https://caty15.github.io/cache/licenses.html" class="linkbar">Licences</a>
-    </div>
+	<div class="navbar">
+        <a href="./new.html" class="linkico"><img src="staticimg/logopng.png" alt="Home" width="30"></a>
+        <a href="./MeetTheTeam.html" class="linkbar">Credits</a>
+        <a href="./licenses.html" class="linkbar">Licences</a>
+    </div> 
     
     <div class="tabs">
-	    <a href="https://caty15.github.io/cache/new.html" class="tab">New</a>
-	    <a href="https://caty15.github.io/cache/albums.html" class="selectedtab">Albums</a>
-	    <a href="https://caty15.github.io/cache/search.html" class="tab">Search</a>
+	    <a href="./new.html" class="tab">New</a>
+	    <a href="./albums.html" class="selectedtab">Albums</a>
+		<a href="./music.html" class="tab">Music</a>
+	    <a href="./search.html" class="tab">Search</a>
 	</div>
 
-	<div class="tabcontent">
-	<div>
-        <h3>Jraydon</h3>
-    </div>
+	<div class="tabcontent" id="contentList">
+    <!-- <h3>Jraydon</h3>
     
 	<div class="scroll">
 		<a href="https://caty15.github.io/cache/content/jraydon/jraydon.html"><img src="https://media.discordapp.net/attachments/1064755996083359786/1064757001697103954/Screenshot_2022-06-28_161404.png" alt="placeholder" width="300"></a>
@@ -30,9 +58,7 @@
 		<a href="https://caty15.github.io/cache/content/jraydon/season3/jraydon.html"><img src="https://cdn.discordapp.com/attachments/1064755996083359786/1115291154175492126/Screenshot_2023-06-05_074459.jpg" alt="placeholder" width="300"></a>
 	</div>
 	
-	<div>
         <h3>PEFF</h3>
-    </div>
     
 	<div class="scroll">
 		<a href="https://caty15.github.io/cache/content/peff/peff.html"><img src="https://cdn.discordapp.com/attachments/621886719322488835/1117657808951844864/IMG_2302.png" alt="placeholder" width="300"></a>
@@ -42,14 +68,12 @@
 		<a href="https://caty15.github.io/cache/content/peff/breakingmatteo.html"><img src="https://cdn.discordapp.com/attachments/621886719322488835/1119808965795119144/IMG_3842.jpg" alt="placeholder" width="300"></a>		
 	</div>
 	
-    <div>
         <h3>Tucker</h3>
-    </div>
 
 	<div class="scroll">
 		<a href="https://caty15.github.io/cache/content/updateontucker/uot.html"><img src="https://cdn.discordapp.com/attachments/1064755996083359786/1118662682518769755/uot2.png" alt="placeholder" width="300"></a>
 		<a href="https://caty15.github.io/cache/content/updateontucker/uot1.html"><img src="https://media.discordapp.net/attachments/621886719322488835/1119808004829745172/IMG_3838.jpg" alt="placeholder" width="300"></a>
 		<a href="https://caty15.github.io/cache/content/updateontucker/mmdt.html"><img src="https://media.discordapp.net/attachments/621886719322488835/1119807261531975810/IMG_3837.jpg" alt="placeholder" width="300"></a>
 		<a href="https://caty15.github.io/cache/content/updateontucker/uoa.html"><img src="https://media.discordapp.net/attachments/621886719322488835/1117665496888791090/IMG_2341.jpg" alt="placeholder" width="300"></a>		
+	</div> -->
 	</div>
-	
